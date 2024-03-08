@@ -18,7 +18,7 @@
 				sb.Append("usemap ").Append(mats[material].name).Append("\n");
 
         
-			if (gameObjects == null || gameObjects.Length == 0)
+			if (gameObjects == null || gameObjects.Length == 0)//yes
 			{
 				Debug.LogWarning("ObjExport: no game objects defined, nothing to export");
 				return null;
